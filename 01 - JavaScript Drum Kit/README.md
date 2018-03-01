@@ -1,7 +1,5 @@
 # 01 Javascript Drumk Kit
-Project #1 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
-
-Basic Javascript Drum Kit
+Project #01 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 
 ## Lessons learned
 - Key events
