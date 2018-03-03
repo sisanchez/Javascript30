@@ -5,4 +5,4 @@ Project #04 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 - Fundamentals of Javascript
 - Practice of array methods (filter, map, sort, reduce…)
 
-![array-cardio](./assets/array-cardio.jpg)
+![array-cardio gif](./assets/array-cardio.jpg)

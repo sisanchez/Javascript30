@@ -5,4 +5,4 @@ Project #03 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 - CSS variables updated with Javascript.
 - When a variable in CSS is updated, everywhere on the page that that variable is referenced will update itself.
 
-![css-variables](./assets/css-variables.gif)
+![css-variables gif](./assets/css-variables.gif)

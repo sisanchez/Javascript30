@@ -5,4 +5,4 @@ Project #05 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 - Created a flexible gallery
 - Practiced CSS for flexible boxes, transitions and other events
 
-![flex panels image gallery](./assets/flex-panels-image-gallery.gif)
+![flex panels image gif](./assets/flex-panels-image-gallery.gif)
