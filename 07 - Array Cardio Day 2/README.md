@@ -1,4 +1,4 @@
-# 07 Array Cardio Day 1
+# 07 Array Cardio Day 2
 Project #07 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 
 ## Lessons learned
