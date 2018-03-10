@@ -1,4 +1,4 @@
-# 12 Custom HTML Video Player
+# 12 Key Sequence Detection
 Project #12 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 
 ## Lessons learned
