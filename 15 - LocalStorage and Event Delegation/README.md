@@ -7,6 +7,6 @@ Project #15 of [30 Day Vanilla JS Coding Challenge](https://javascript30.com)
 
 ![localStorage event delegation jpg](./assets/localStorage-event-delegation.jpg)
 
-![localStorage event delegation gif 1](./assets/localStorage-event-delegation2.gif)
+![localStorage event delegation gif 1](./assets/localStorage-event-delegation.gif)
 
-![localStorage event delegation gif 2](./assets/localStorage-event-delegation.gif)
+![localStorage event delegation gif 2](./assets/localStorage-event-delegation-2.gif)
