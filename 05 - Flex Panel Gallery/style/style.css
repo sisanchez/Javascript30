@@ -1,0 +1,104 @@
+<style>html {
+  box-sizing: border-box;
+  background: #ffc600;
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.panels {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.panel {
+  background: #6B0F9C;
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.1);
+  color: white;
+  text-align: center;
+  align-items: center;
+  /* Safari transitionend event.propertyName === flex */
+  /* Chrome + FF transitionend event.propertyName === flex-grow */
+  transition: font-size 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11), background 0.2s;
+  font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  justify-content: center;
+  align.items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.panel1 {
+  background-image: url(https://latintrends.com/wp-content/uploads/2012/10/Antigua-Guatemala-Santa-Catalina-Arch.jpg);
+}
+
+.panel2 {
+  background-image: url(http://4.bp.blogspot.com/_klZizDI6rAQ/TT8AeTviU3I/AAAAAAAADNs/5fjP5FO3VCI/s1600/5O3E1558.JPG);
+}
+
+.panel3 {
+  background-image: url(https://sarahandduncantravel.files.wordpress.com/2015/09/livingston-and-rio-dulce-1.jpg);
+}
+
+.panel4 {
+  background-image: url(https://carmelourso.files.wordpress.com/2013/06/jacarandc3a1.jpg);
+}
+
+.panel5 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/45/Fuego_from_Acatenango.jpg);
+}
+
+.panel>* {
+  margin: 0;
+  width: 100%;
+  transition: transform 0.5s;
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.panel>*:first-child {
+  transform: translateY(-100%);
+}
+
+.panel.open-active>*:first-child {
+  transform: translateY(0);
+}
+
+.panel>*:last-child {
+  transform: translateY(100%);
+}
+
+.panel.open-active>*:last-child {
+  transform: translateY(0);
+}
+
+.panel p {
+  text-transform: uppercase;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+  font-size: 2em;
+}
+
+.panel p:nth-child(2) {
+  font-size: 4em;
+}
+
+.panel.open {
+  flex: 5;
+  font-size: 40px;
+}
+
+</style>
